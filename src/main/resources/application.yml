@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: contact-tracter
+  jpa:
+    hibernate:
+      ddlAuto: create-drop
+    show-sql: true
+
+dayLength: 10
